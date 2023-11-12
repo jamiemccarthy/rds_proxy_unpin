@@ -1,0 +1,16 @@
+# See https://git-scm.com/docs/gitattributes for more about git attribute files.
+
+# Mark the database schema as having been generated.
+db/schema.rb linguist-generated
+
+# Mark any vendored files as having been vendored.
+vendor/* linguist-vendored
+
+# Don't show massive diffs on these
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
+
+# Tell git which diff to use for .rb files
+# https://calebhearth.com/git-method-history
+*.rb diff=ruby
