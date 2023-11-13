@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "./lib/rds_proxy_unpin/version"
+require_relative "lib/rds_proxy_unpin/version"
 
 Gem::Specification.new do |s|
   s.name = "rds_proxy_unpin"

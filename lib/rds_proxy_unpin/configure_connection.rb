@@ -10,6 +10,7 @@ module RdsProxyUnpin
     def configure_connection
       # TKTK pick the parts that make sense, or run the original and
       # strip out the argument to execute()/internal_execute()
+      puts "overrode it"
     end
   end
 end
